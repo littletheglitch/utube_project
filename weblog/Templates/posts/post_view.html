@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>post view</title>
+</head>
+<body>
+    <h1>post view :</h1>
+
+    <ul><h3>{{post.title}}</h3> <br> {{post.text }}
+    {% for com in comment %}
+        <li><h3>{{com.title}}</h3><br>{{com.text}}</li>
+        {% endfor %}
+
+
+
+
+
+
+    </ul>
+
+    <a href="/post/"> back to main menu </a>
+</body>
+</html>

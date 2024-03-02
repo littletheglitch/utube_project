@@ -55,7 +55,7 @@ ROOT_URLCONF = 'weblog.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ["weblog/Templates"],
+        'DIRS': ["weblog/Templates" ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
